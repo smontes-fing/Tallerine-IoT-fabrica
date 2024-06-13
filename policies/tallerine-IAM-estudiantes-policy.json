@@ -1,0 +1,19 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "ec2:*",
+                "rds:*",
+                "dynamodb:*",
+                "rekognition:*",
+                "comprehend:*",
+                "iot:*",
+                "lambda:*",
+                "s3:*"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
